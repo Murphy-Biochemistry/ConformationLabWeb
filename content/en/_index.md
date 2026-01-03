@@ -11,14 +11,14 @@ tags = []
 categories = []
 +++
 
-{{< infobox type="info" >}}
+{{< infobox type="info" title="">}}
 
 ## Welcome to ConformationLab Web
 
 **ConformationLab Studio** is a modern research tool for predicting and exploring protein structures.  
 Built on top of **ColabFold** and **AlphaFold2**, it combines machine learning with an accessible interface designed for young researchers.
 
-### With ConformationLab Studio, you can
+### With ConformationLab Studio:
 
 - Generate protein structure predictions reliably
 - Run locally on any Intel or Apple-Silicon-based machine without complex setup
@@ -31,7 +31,7 @@ ConformationLab Studio makes cutting-edge structural biology methods easier to u
 
 {{< /infobox >}}
 
-{{< infobox type="danger" >}}
+{{< infobox type="danger" title="" >}}
 
 ### Disclaimer
 
