@@ -1,0 +1,9 @@
+{{ if .Get "disabled" }}
+  <a class="download-btn disabled">
+    {{ with .Get "label" }}{{ . }}{{ else }}Download{{ end }}
+  </a>
+{{ else }}
+  <a href="{{ .Get "link" }}" class="download-btn" download>
+    {{ with .Get "label" }}{{ . }}{{ else }}Download{{ end }}
+  </a>
+{{ end }}

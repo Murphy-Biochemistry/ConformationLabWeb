@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "css/infobox.css" | relURL }}">
+    <title>Document</title>
+</head>
+
+<script src="{{ "js/theme_toggle.js" | relURL }}"></script>
+
+<body>
+
+    {{ partial "navigation" . }}
+
+    {{ partial "header" . }}
+    
+    <main>
+
+            {{block "main" . }}
+
+            {{end}}
+
+    </main>
+
+    {{ partial "footer" . }}
+
+</body>
+
+
+</html>

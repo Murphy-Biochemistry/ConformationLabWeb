@@ -1,0 +1,8 @@
+{{ define "main" }}
+    {{ if .Params.construction }}
+        <h1>🚧 Under Construction 🚧</h1>
+        <h3>This page will be available soon.</h3>
+    {{ else }}
+        {{ .Content }}
+    {{ end }}
+{{end}}

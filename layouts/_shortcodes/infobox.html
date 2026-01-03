@@ -1,0 +1,4 @@
+<div class="infobox {{ .Get "type" }}">
+  <strong>{{ .Get "title" }}</strong>
+  <div>{{ .Inner | markdownify }}</div>
+</div>

@@ -1,0 +1,14 @@
+{{ if .IsTranslated }}
+  <div class="language_button">
+    {{ range .Translations }}
+      <a href="{{ .RelPermalink }}"  class="language_button">
+        {{ if eq .Lang "en" }}🇬🇧 EN{{ end }}
+        {{ if eq .Lang "de" }}🇩🇪 DE{{ end }}
+      </a>
+    {{ end }}
+  </div>
+{{ else }}
+  <div class="language_button">
+    Only available in {{ .Lang | upper }}
+  </div>
+{{ end }}

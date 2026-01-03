@@ -1,0 +1,24 @@
+baseURL = 'https://spikemurphy.github.io/ConformationLabWeb/'
+languageCode = 'en-us'
+title = 'ConformationLabWeb'
+author = "Spike Murphy Müller"
+copyright = "© 2025 Spike Murphy Müller · ConformationLab Studio Code: MIT License · Content & Design: All Rights Reserved"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    title = "ConformationLab Studio"
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 2
+    contentDir = "content/de"
+    title = "ConformationLab Studio"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

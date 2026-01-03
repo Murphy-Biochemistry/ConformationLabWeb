@@ -1,0 +1,88 @@
+Initial GitHub Push and Pages Hosting
+
+1. Open a new repository in GitHub
+2. Link offline Repository to GitHub repository
+    VSCode terminal (from repository folder):
+        git remote add origin https://github.com/SpikeMurphy/REPOSITORYNAME.git
+        git remote -v
+        output: origin  https://github.com/SpikeMurphy/REPOSITORYNAME.git (fetch)
+        git add .
+        git commit -m "Initial commit: ConformationLabStudio source, build system, and license"
+        git branch -M main
+        git push -u origin main
+3. Build Hugo Webpage
+4. Settings -> General: Make repository public
+5. Settings -> Pages: Change Source to GitHubA Actions
+6. Set Base URL in hugo.toml:
+    baseURL = "https://spikemurphy.github.io/REPOSITORYNAME/"
+7. Create .github/workflows/hugo.yaml with the following content:
+    name: Deploy Hugo site to Pages
+
+    on:
+    push:
+        branches:
+        - main
+    workflow_dispatch:
+
+    permissions:
+    contents: read
+    pages: write
+    id-token: write
+
+    concurrency:
+    group: "pages"
+    cancel-in-progress: false
+
+    jobs:
+    build:
+        runs-on: ubuntu-latest
+        env:
+        HUGO_VERSION: 0.123.0
+
+        steps:
+        - name: Checkout
+            uses: actions/checkout@v4
+            with:
+            submodules: recursive
+            fetch-depth: 0
+
+        - name: Install Hugo
+            run: |
+            wget -O hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+            sudo dpkg -i hugo.deb
+
+        - name: Install Dart Sass
+            run: sudo snap install dart-sass
+
+        - name: Setup Pages
+            id: pages
+            uses: actions/configure-pages@v4
+
+        - name: Build with Hugo
+            env:
+            HUGO_ENVIRONMENT: production
+            run: |
+            hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+        - name: Upload artifact
+            uses: actions/upload-pages-artifact@v3
+            with:
+            path: ./public
+
+    deploy:
+        needs: build
+        runs-on: ubuntu-latest
+        environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+
+        steps:
+        - name: Deploy to GitHub Pages
+            id: deployment
+            uses: actions/deploy-pages@v4
+
+8. Commit and Push again to GitHub
+    VSCode terminal (from repository folder):
+        git add .
+        git commit -m "remove: xxxxx"
+        git push

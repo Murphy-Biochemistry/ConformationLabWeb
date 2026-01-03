@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ if .Params.construction }}
+      <h1>🚧 Under Construction 🚧</h1>
+      <h3>This page will be available soon.</h3>
+  {{ else }}
+      {{ if eq .File.BaseFileName "contact" }}
+          <div style="text-align:center;">
+              {{ .Content }}
+          </div>
+      {{ else }}
+          {{ .Content }}
+      {{ end }}
+  {{ end }}
+{{ end }}
