@@ -15,11 +15,11 @@ categories = []
 We take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations (in particular GDPR) as well as this privacy policy.
 
 ## Data Protection Officer:
-**Matthias Jaster**  
-Martinistraße 52  
-20246 Hamburg  
-Tel.  +49 (0) 40 7410 - 56890  
-E-Mail:  m.jaster@uke.de
+**Spike Murphy Müller**  
+xxxxxxxxxx
+xxxxxxxxxx
+Tel.  xxxxxxxxxx
+E-Mail:  xxxxxxxxxx
 
 For questions regarding data protection you can contact the data protection controller directly.  
 You can also yse our [contact form](/contact).  

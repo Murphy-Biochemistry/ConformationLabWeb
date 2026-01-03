@@ -1,11 +1,11 @@
 <nav class="nav">
-    <a href="{{ "/" | absLangURL }}"><img class="nav" src="{{ "images/ShipFoldLogo.png" | relURL }}" alt="Logo"></a>
+    <a href="{{ .Site.Home.Permalink }}"><img class="nav" src="{{ "images/ShipFoldLogo.png" | relURL }}" alt="Logo"></a>
     <ul class="nav">
-        <li class="nav"><a href="{{ "/" | absLangURL }}">{{ i18n "home"}}</a></li>
-        <li class="nav"><a href="{{ "/downloads/" | absLangURL }}">{{ i18n "downloads"}}</a></li>
-        <li class="nav"><a href="{{ "/instructions/" | absLangURL }}">{{ i18n "instructions"}}</a></li>
-        <li class="nav"><a href="{{ "/terms_of_use/" | absLangURL }}">{{ i18n "terms_of_use"}}</a></li>
-        <li class="nav"><a href="{{ "/privacy_policy/" | absLangURL }}">{{ i18n "privacy_policy"}}</a></li>
-        <li class="nav"><a href="{{ "/legal_notice/" | absLangURL }}">{{ i18n "legal_notice"}}</a></li>
+        <li class="nav"><a href="{{ .Site.Home.Permalink }}">{{ i18n "home" }}</a></li>
+        <li class="nav"><a href="{{ (site.GetPage "section" "downloads").Permalink }}">{{ i18n "downloads" }}</a></li>
+        <li class="nav"><a href="{{ (site.GetPage "section" "instructions").Permalink }}">{{ i18n "instructions" }}</a></li>
+        <li class="nav"><a href="{{ (site.GetPage "section" "terms_of_use").Permalink }}">{{ i18n "terms_of_use" }}</a></li>
+        <li class="nav"><a href="{{ (site.GetPage "section" "privacy_policy").Permalink }}">{{ i18n "privacy_policy" }}</a></li>
+        <li class="nav"><a href="{{ (site.GetPage "section" "legal_notice").Permalink }}">{{ i18n "legal_notice" }}</a></li>
     </ul>
 </nav>

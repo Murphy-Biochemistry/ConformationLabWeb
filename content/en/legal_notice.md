@@ -14,27 +14,24 @@ categories = []
 # Legal Notice according to § 5 TMG
 
 **University Medical Center Hamburg-Eppendorf (UKE)**  
-Martinistraße 52  
-20246 Hamburg  
-Germany
+xxxxxxxxxx
+xxxxxxxxxx
+xxxxxxxxxx
 
-**Phone:** +49 (0) 40 7410 - 0  
-**Email:** info@uke.de
+**Phone:** xxxxxxxxxx 
+**Email:** xxxxxxxxxx
 
 **Represented by:**  
-Prof. Dr. Christian Gerloff, Medical Director and Chairman of the Board  
-Joachim Prölß, Director of Patient and Care Management  
-Prof. Dr. Blanche Schwappach-Pignataro, Dean  
-Corinna Wriedt, Commercial Director  
+xxxxxxxxxx
 
-**Umsatzsteueridentifikationsnummer:** DE 218618948  
-**Wirtschafts-Identifikationsnummer:** DE218618948-00001
+**Umsatzsteueridentifikationsnummer:** xxxxxxxxxx 
+**Wirtschafts-Identifikationsnummer:** xxxxxxxxxx
 
 **Responsible for content according to § 18 Abs. 2 MStV:**  
 Spike Murphy Müller  
-Martinistraße 52  
-20246 Hamburg  
-Germany
+xxxxxxxxxx
+xxxxxxxxxx
+xxxxxxxxxx
 
 # Disclaimer
 ## Liability for Content

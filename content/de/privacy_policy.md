@@ -15,11 +15,11 @@ categories = []
 Wir nehmen den Schutz Ihrer personenbezogenen Daten sehr ernst. Ihre Daten werden vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO), sowie dieser Datenschutzerklärung behandelt.  
 
 # Verantwortlicher / Datenschutzbeauftragter
-**Matthias Jaster**
-Martinistraße 52  
-20246 Hamburg  
-Tel.: +49 (0) 40 7410 - 56890  
-E-Mail: m.jaster@uke.de  
+**Spike Murphy Müller**
+xxxxxxxxxx
+xxxxxxxxxx
+Tel.  xxxxxxxxxx
+E-Mail:  xxxxxxxxxx
 
 Bei Fragen zum Datenschutz können Sie sich direkt an den Datenschutzbeauftragten wenden.
 Alternativ können Sie auch unser Kontaktformular nutzen.  

@@ -40,4 +40,4 @@ This project is continuously evolving as part of the developer’s personal lear
 Features, interface elements, and functionality may change without prior notice.  
 ## Contact  
 If you have questions, feedback, or suggestions, please feel free to reach out:  
-📧 spike.mueller@stud.uke.uni-hamburg.de
+📧 conformationlab@gmail.com
