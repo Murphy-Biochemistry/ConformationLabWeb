@@ -1,21 +1,24 @@
 Initial GitHub Push and Pages Hosting
 
-1. Open a new repository in GitHub
-2. Link offline Repository to GitHub repository
+1. Create Hugo Webpage
+2. Open a new repository in GitHub
+3. Link offline Repository (webpage folder) to GitHub repository
     VSCode terminal (from repository folder):
+        git init
         git remote add origin https://github.com/SpikeMurphy/REPOSITORYNAME.git
         git remote -v
-        output: origin  https://github.com/SpikeMurphy/REPOSITORYNAME.git (fetch)
+            origin  https://github.com/SpikeMurphy/REPOSITORYNAME.git (fetch)
+            origin  https://github.com/SpikeMurphy/ConformationLabWeb.git (push)
         git add .
-        git commit -m "Initial commit: ConformationLabStudio source, build system, and license"
+        git commit -m "Initial commit: ConformationLabWeb"
         git branch -M main
         git push -u origin main
-3. Build Hugo Webpage
-4. Settings -> General: Make repository public
-5. Settings -> Pages: Change Source to GitHubA Actions
-6. Set Base URL in hugo.toml:
+4. Build Hugo Webpage
+5. Set Base URL in hugo.toml:
     baseURL = "https://spikemurphy.github.io/REPOSITORYNAME/"
-7. Create .github/workflows/hugo.yaml with the following content:
+6. Settings -> General: Make repository public
+7. Settings -> Pages: Change Source to GitHubA Actions
+8. Create .github/workflows/hugo.yaml with the following content:
     name: Deploy Hugo site to Pages
 
     on:
@@ -81,7 +84,7 @@ Initial GitHub Push and Pages Hosting
             id: deployment
             uses: actions/deploy-pages@v4
 
-8. Commit and Push again to GitHub
+9. Commit and Push again to GitHub
     VSCode terminal (from repository folder):
         git add .
         git commit -m "remove: xxxxx"

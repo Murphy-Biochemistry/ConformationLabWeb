@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on ConformationLab Studio</title>
+    <link>https://spikemurphy.github.io/ConformationLabWeb/de/categories/</link>
+    <description>Recent content in Categories on ConformationLab Studio</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <copyright>© 2025 Spike Murphy Müller · ConformationLab Studio Code: MIT License · Content &amp; Design: All Rights Reserved</copyright>
+    <atom:link href="https://spikemurphy.github.io/ConformationLabWeb/de/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

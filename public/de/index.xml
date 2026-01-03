@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ConformationLab on ConformationLab Studio</title>
+    <link>https://spikemurphy.github.io/ConformationLabWeb/de/</link>
+    <description>Recent content in ConformationLab on ConformationLab Studio</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <copyright>© 2025 Spike Murphy Müller · ConformationLab Studio Code: MIT License · Content &amp; Design: All Rights Reserved</copyright>
+    <lastBuildDate>Fri, 03 Oct 2025 17:08:27 +0200</lastBuildDate>
+    <atom:link href="https://spikemurphy.github.io/ConformationLabWeb/de/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MIT License</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/mit_license/</link>
+      <pubDate>Fri, 03 Oct 2025 17:08:27 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/mit_license/</guid>
+      <description>&lt;p&gt;MIT License&lt;/p&gt;&#xA;&lt;p&gt;Copyright (c) 2025 Spike Murphy Müller&lt;/p&gt;&#xA;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&#xA;of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal&#xA;in the Software without restriction, including without limitation the rights&#xA;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#xA;copies of the Software, and to permit persons to whom the Software is&#xA;furnished to do so, subject to the following conditions:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alphafold2 License</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/alphafold2_license/</link>
+      <pubDate>Fri, 03 Oct 2025 16:53:41 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/alphafold2_license/</guid>
+      <description>&lt;p&gt;Apache License&lt;br&gt;&#xA;Version 2.0, January 2004&lt;br&gt;&#xA;&lt;a href=&#34;http://www.apache.org/licenses/&#34;&gt;http://www.apache.org/licenses/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Definitions.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;License&amp;rdquo; shall mean the terms and conditions for use, reproduction,&#xA;and distribution as defined by Sections 1 through 9 of this document.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Licensor&amp;rdquo; shall mean the copyright owner or entity authorized by&#xA;the copyright owner that is granting the License.&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;Legal Entity&amp;rdquo; shall mean the union of the acting entity and all&#xA;other entities that control, are controlled by, or are under common&#xA;control with that entity. For the purposes of this definition,&#xA;&amp;ldquo;control&amp;rdquo; means (i) the power, direct or indirect, to cause the&#xA;direction or management of such entity, whether by contract or&#xA;otherwise, or (ii) ownership of fifty percent (50%) or more of the&#xA;outstanding shares, or (iii) beneficial ownership of such entity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Colabfold License</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/colabfold_license/</link>
+      <pubDate>Fri, 03 Oct 2025 16:53:30 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/colabfold_license/</guid>
+      <description>&lt;p&gt;MIT License&lt;/p&gt;&#xA;&lt;p&gt;Copyright (c) 2021 Sergey Ovchinnikov&lt;/p&gt;&#xA;&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy&#xA;of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to deal&#xA;in the Software without restriction, including without limitation the rights&#xA;to use, copy, modify, merge, publish, distribute, sublicense, and/or sell&#xA;copies of the Software, and to permit persons to whom the Software is&#xA;furnished to do so, subject to the following conditions:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Anleitung</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/instructions/</link>
+      <pubDate>Fri, 03 Oct 2025 03:47:28 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/instructions/</guid>
+      <description>&lt;h2 id=&#34;versions&#34;&gt;Versions&lt;/h2&gt;&#xA;&lt;p&gt;We offer two versions of the program &lt;strong&gt;ConformationLab Studio&lt;/strong&gt; &amp;ndash; a &lt;em&gt;BASIC mode&lt;/em&gt; and an &lt;em&gt;ADVANCED mode&lt;/em&gt;.&lt;br&gt;&#xA;The ADVANCED mode offers additional parameters that are not essential for the intended target group.&lt;br&gt;&#xA;Howewer we implemented them in case someone wants to try them out.&lt;/p&gt;&#xA;&lt;h2 id=&#34;overview--preparation&#34;&gt;Overview &amp;amp; Preparation&lt;/h2&gt;&#xA;&lt;p&gt;As the input a simple FASTA-file is used.&lt;br&gt;&#xA;The file can be downloaded from databases or easily created using text editor:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Press command+space&lt;/li&gt;&#xA;&lt;li&gt;Type in TextEdit and open TextEdit.&lt;/li&gt;&#xA;&lt;li&gt;In the first line type &amp;gt; followed by the name of the protein&lt;/li&gt;&#xA;&lt;li&gt;Press Return/Enter and in the second line insert the one-letter-code of the protein sequence&lt;/li&gt;&#xA;&lt;li&gt;If you want to model multimers, separate the sequences by : and use no spaces or line breaks&lt;/li&gt;&#xA;&lt;li&gt;Save the file with the suffix .fasta&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;To prepare a run, select the FASTA-file as an input and indicate the output location.&lt;/li&gt;&#xA;&lt;li&gt;Adjust the options as necessary.&lt;/li&gt;&#xA;&lt;li&gt;All adjustments can be undone by clicking the clear all button.&lt;/li&gt;&#xA;&lt;li&gt;Start the modeling process by clicking the run button.&lt;/li&gt;&#xA;&lt;li&gt;To show system exertion navigate to the menu bar and to help -&amp;gt; system stats.&lt;/li&gt;&#xA;&lt;li&gt;A run can be canceled at any time by clicking the cancle button.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;&#xA;&lt;p&gt;A list of options (with defaults and descriptions) is provided in the information fields to the right of the input fields or dropdown menus.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Nachricht Versendet</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/message_delivered/</link>
+      <pubDate>Fri, 03 Oct 2025 02:59:44 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/message_delivered/</guid>
+      <description>&lt;h1 id=&#34;-vielen-dank&#34;&gt;📧 Vielen Dank&lt;/h1&gt;&#xA;&lt;h2 id=&#34;ihre-nachricht-wurde-erfolgreich-versendet&#34;&gt;Ihre Nachricht wurde erfolgreich versendet.&lt;/h2&gt;&#xA;&lt;h3 id=&#34;wir-melden-uns-so-bald-wie-möglich-bei-ihnen&#34;&gt;Wir melden uns so bald wie möglich bei Ihnen.&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://spikemurphy.github.io/ConformationLabWeb/de/&#34;&gt;← HOME&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Kontakt</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/contact/</link>
+      <pubDate>Fri, 03 Oct 2025 01:59:07 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/contact/</guid>
+      <description>&lt;form class=&#34;contact-form&#34; action=&#34;https://formsubmit.co/conformationlab@gmail.com&#34; method=&#34;POST&#34;&gt;&#xA;  &#xA;  &#xA;  &lt;input type=&#34;hidden&#34; name=&#34;_captcha&#34; value=&#34;false&#34;&gt;&#xA;  &lt;input type=&#34;hidden&#34; name=&#34;_template&#34; value=&#34;table&#34;&gt;&#xA;  &lt;input type=&#34;hidden&#34; name=&#34;_next&#34; value=&#34;https://yourdomain.com/thanks&#34;&gt;&#xA;&#xA;  &lt;label for=&#34;name&#34;&gt;Name&lt;/label&gt;&#xA;  &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; required&gt;&#xA;&#xA;  &lt;label for=&#34;surname&#34;&gt;Surname&lt;/label&gt;&#xA;  &lt;input type=&#34;text&#34; id=&#34;surname&#34; name=&#34;surname&#34; required&gt;&#xA;&#xA;  &lt;label for=&#34;institution&#34;&gt;Institution&lt;/label&gt;&#xA;  &lt;input type=&#34;text&#34; id=&#34;institution&#34; name=&#34;institution&#34; required&gt;&#xA;&#xA;  &lt;label for=&#34;country&#34;&gt;Country&lt;/label&gt;&#xA;  &lt;input type=&#34;text&#34; id=&#34;country&#34; name=&#34;country&#34; required&gt;&#xA;&#xA;  &lt;label for=&#34;email&#34;&gt;Email&lt;/label&gt;&#xA;  &lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;email&#34; required&gt;&#xA;&#xA;  &lt;label for=&#34;message&#34;&gt;Message&lt;/label&gt;&#xA;  &lt;textarea id=&#34;message&#34; name=&#34;message&#34; rows=&#34;5&#34; required&gt;&lt;/textarea&gt;&#xA;&#xA;  &lt;button type=&#34;submit&#34;&gt;Send Message&lt;/button&gt;&#xA;&lt;/form&gt;</description>
+    </item>
+    <item>
+      <title>Nutzungsbedingungen</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/terms_of_use/</link>
+      <pubDate>Thu, 02 Oct 2025 21:12:45 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/terms_of_use/</guid>
+      <description>&lt;h1 id=&#34;nutzungsbedingungen&#34;&gt;Nutzungsbedingungen&lt;/h1&gt;&#xA;&lt;p&gt;Zuletzt aktualisiert: Oktober 2025&lt;/p&gt;&#xA;&lt;h2 id=&#34;allgemeine-informationen&#34;&gt;Allgemeine Informationen&lt;/h2&gt;&#xA;&lt;p&gt;ConformationLab Studio ist ein persönliches, nicht-kommerzielles Lernprojekt, das von einem unabhängigen Entwickler mit Sitz in Deutschland entwickelt und verbreitet wird.&lt;br&gt;&#xA;Die Software wird unter den Bedingungen der MIT-Lizenz bereitgestellt. Diese erlaubt die freie Nutzung, Veränderung und Weitergabe der Software, sofern der Urheberrechts- und Lizenzhinweis in allen Kopien oder wesentlichen Teilen der Software enthalten bleibt.&lt;br&gt;&#xA;Durch das Herunterladen, Installieren oder Verwenden dieser Software erklären Sie sich mit diesen Nutzungsbedingungen einverstanden und erkennen die Informationen in den beigefügten Abschnitten Haftungsausschluss, Datenschutzerklärung und Lizenz an.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Datenschutz</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/privacy_policy/</link>
+      <pubDate>Thu, 02 Oct 2025 21:12:06 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/privacy_policy/</guid>
+      <description>&lt;h1 id=&#34;datenschutzerklärung&#34;&gt;Datenschutzerklärung&lt;/h1&gt;&#xA;&lt;p&gt;Wir nehmen den Schutz Ihrer personenbezogenen Daten sehr ernst. Ihre Daten werden vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften, insbesondere der Datenschutz-Grundverordnung (DSGVO), sowie dieser Datenschutzerklärung behandelt.&lt;/p&gt;&#xA;&lt;h1 id=&#34;verantwortlicher--datenschutzbeauftragter&#34;&gt;Verantwortlicher / Datenschutzbeauftragter&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Matthias Jaster&lt;/strong&gt;&#xA;Martinistraße 52&lt;br&gt;&#xA;20246 Hamburg&lt;br&gt;&#xA;Tel.: +49 (0) 40 7410 - 56890&lt;br&gt;&#xA;E-Mail: &lt;a href=&#34;mailto:m.jaster@uke.de&#34;&gt;m.jaster@uke.de&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Bei Fragen zum Datenschutz können Sie sich direkt an den Datenschutzbeauftragten wenden.&#xA;Alternativ können Sie auch unser Kontaktformular nutzen.&lt;/p&gt;&#xA;&lt;h2 id=&#34;erhebung-und-speicherung-personenbezogener-daten&#34;&gt;Erhebung und Speicherung personenbezogener Daten&lt;/h2&gt;&#xA;&lt;h3 id=&#34;beim-besuch-der-website&#34;&gt;Beim Besuch der Website&lt;/h3&gt;&#xA;&lt;p&gt;Der Webserver (HostGator) erhebt automatisch technische Informationen, sobald Sie unsere Website aufrufen, darunter:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Impressum</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/legal_notice/</link>
+      <pubDate>Thu, 02 Oct 2025 21:11:38 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/legal_notice/</guid>
+      <description>&lt;h1 id=&#34;impressum-gemäß--5-tmg&#34;&gt;Impressum gemäß § 5 TMG&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Universitätsklinikum Hamburg-Eppendorf (UKE)&lt;/strong&gt;&lt;br&gt;&#xA;Martinistraße 52&lt;br&gt;&#xA;20246 Hamburg&lt;br&gt;&#xA;Germany&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Telefon:&lt;/strong&gt; +49 (0) 40 7410 - 0&lt;br&gt;&#xA;&lt;strong&gt;E-Mail:&lt;/strong&gt; &lt;a href=&#34;mailto:info@uke.de&#34;&gt;info@uke.de&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Vertreten durch:&lt;/strong&gt;&lt;br&gt;&#xA;Prof. Dr. Christian Gerloff, Medical Director and Chairman of the Board&lt;br&gt;&#xA;Joachim Prölß, Director of Patient and Care Management&lt;br&gt;&#xA;Prof. Dr. Blanche Schwappach-Pignataro, Dean&lt;br&gt;&#xA;Corinna Wriedt, Commercial Director&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Umsatzsteueridentifikationsnummer:&lt;/strong&gt; DE 218618948&lt;br&gt;&#xA;&lt;strong&gt;Wirtschafts-Identifikationsnummer:&lt;/strong&gt; DE218618948-00001&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV:&lt;/strong&gt;&lt;br&gt;&#xA;Spike Murphy Müller&lt;br&gt;&#xA;Martinistraße 52&lt;br&gt;&#xA;20246 Hamburg&lt;br&gt;&#xA;Germany&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Downloads</title>
+      <link>https://spikemurphy.github.io/ConformationLabWeb/de/downloads/</link>
+      <pubDate>Thu, 02 Oct 2025 21:10:03 +0200</pubDate>
+      <guid>https://spikemurphy.github.io/ConformationLabWeb/de/downloads/</guid>
+      <description>&lt;a href=&#34;https://spikemurphy.github.io/ConformationLabWeb/dmg/ConformationLab.dmg&#34; class=&#34;download-btn&#34; download&gt;&#xA;    ⬇️ Download macOS App&#xA;  &lt;/a&gt;&#xA;&#xA;&#xA;&#xA;  &lt;a class=&#34;download-btn disabled&#34;&gt;&#xA;    ⬇️ Download Windows App&#xA;  &lt;/a&gt;&#xA;&#xA;&#xA;&lt;p&gt;Diese Software ist unter der &lt;a href=&#34;https://spikemurphy.github.io/ConformationLabWeb/de/mit_license/&#34;&gt;MIT License&lt;/a&gt; veröffentlicht.&lt;/p&gt;&#xA;&lt;p&gt;Diese Anwendung verwendet folgende Komponenten:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://spikemurphy.github.io/ConformationLabWeb/de/colabfold_license/&#34;&gt;ColabFold (MIT License, © 2021 Sergey Ovchinnikov&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://spikemurphy.github.io/ConformationLabWeb/de/alphafold2_license/&#34;&gt;AlphaFold2 (Apache License 2.0, © DeepMind Technologies Limited)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
