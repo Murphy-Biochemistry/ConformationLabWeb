@@ -1,0 +1,378 @@
+/* ========== Body (light) ========== */
+body {
+    background: linear-gradient(180deg, #e8f4ff, #ffffff);
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+/* ========== Body (light) ========== */
+/* ========== Hyper Links (light) ========== */
+a {
+  color: #2563eb; /* nice readable blue */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+/* ========== Hyper Links (light) ========== */
+/* ========== Navigation (light) ========== */
+nav.nav {
+    align-items: center;
+    background: linear-gradient(90deg, #1f2937ee, #111827ee);
+    box-shadow: 0 2px 6px rgb(116, 136, 162);
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    padding: 15px 10%;
+}
+img.nav{
+    height: 80px;
+    width: auto;
+}
+img.nav:hover {
+    transform: scale(1.10);
+    transition: transform 0.3s ease-in-out;
+}
+ul.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 10px 0 0;
+}
+li.nav{
+    list-style: none;
+}
+li.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #d2e9ff;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+li.nav a:hover {
+    color: #3b82f6;
+    border-bottom: 2px solid #3b82f6;
+
+}
+/* ========== Navigation (light) ========== */
+/* ========== Header (light) ========== */
+header {
+    background: linear-gradient(135deg, #ffffff, #eaf5ff);
+    box-shadow: 0 2px 6px 0 rgb(116, 136, 162);
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10%;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* ========== Header (light) ========== */
+/* ========== Main (light) ========== */
+main {
+    background: linear-gradient(135deg, #ffffff, #eaf5ff);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 10% 30px 10%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgb(116, 136, 162);
+}
+/* ========== Main (light) ========== */
+/* ========== Footer (light) ========== */
+footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #1f2937ee, #111827ee);
+    text-align: center;
+    padding: 5px 10%;
+    font-size: 0.8rem;
+}
+div.footer{
+    color: #d2e9ff;
+}
+ul.footer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+li.footer{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+svg.footer {
+    width: 20px;
+    height: 20px;
+    stroke: currentColor;
+    color: #d2e9ff;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+li.footer a:hover svg {
+    transform: scale(1.2);
+    color: #3b82f6;
+}
+.language_button a {
+    color: #d2e9ff;
+}
+.language_button a:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+/* ========== Footer (light) ========== */
+/* ========== Contact Form (light) ========== */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    background: linear-gradient(135deg, #ffffff, #eaf5ff);
+    box-shadow: 0 2px 6px 0 rgb(116, 136, 162);
+    border-radius: 10px;
+}
+.contact-form .form-row {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #000000;
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #d2e9ff;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border-color 0.3s ease;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 2px 6px 0 #3b82f6;
+}
+.contact-form button {
+    padding: 12px;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.contact-form button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+/* ========== Contact Form (light) ========== */
+/* ========== Download Button (light) ========== */
+.download-btn {
+    display: inline-block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #3b82f6, #2563eb);
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+.download-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #2563eb, #1d4ed8);
+}
+/* ========== Download Button (light) ========== */
+/* ========== Download Button Disabled (light) ========== */
+.download-btn.disabled {
+    background: #757575;
+    color: #dbdbdb;
+    cursor: not-allowed;
+    pointer-events: none;
+    box-shadow: none;
+    transform: none;
+}
+/* ========== Download Button Disabled (light) ========== */
+
+
+
+
+
+/* ========== Mode Switch ========== */
+.switchbox {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+}
+.switchbox input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #d2e9ff;
+    transition: 0.5s;
+    border-radius: 30px;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.5s;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px #3b82f6;
+}
+input:checked + .slider {
+    background-color: #3b82f6;
+}
+input:checked + .slider:before {
+    transform: translateX(20px);
+}
+.switchbox .slider:hover {
+    box-shadow: 0 2px 6px #3b82f6;
+}
+/* ========== Mode Switch ========== */
+
+
+
+
+
+/* ========== Body (dark) ========== */
+body.darkmode {
+    background: linear-gradient(180deg, #111827, #1f2937);
+    color: #c2e1ff;
+}
+/* ========== Body (dark) ========== */
+/* ========== Hyper Links (light) ========== */
+body.darkmode a {
+  color: #60a5fa;
+}
+body.darkmode a:hover {
+  color: #93c5fd;
+}
+/* ========== Hyper Links (light) ========== */
+/* ========== Navigation (dark) ========== */
+body.darkmode nav.nav {
+    background: linear-gradient(90deg, #111827, #000000);
+    box-shadow: 0 2px 6px rgb(29, 47, 68);
+}
+li.nav a {
+    color: #c2e1ff;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+}
+li.nav a:hover {
+    color: #3b82f6;
+    border-bottom: 2px solid #3b82f6;
+}
+/* ========== Navigation (dark) ========== */
+/* ========== Header (dark) ========== */
+body.darkmode header {
+    background: linear-gradient(135deg, #1f2937, #111827);
+    box-shadow: 0 2px 6px rgb(29, 47, 68);
+    color: white;
+}
+/* ========== Header (dark) ========== */
+/* ========== Main (dark) ========== */
+body.darkmode main {
+    background: linear-gradient(135deg, #1f2937, #111827);
+    box-shadow: 0 2px 6px rgb(29, 47, 68);
+    color: white;
+}
+/* ========== Main (dark) ========== */
+/* ========== Footer (dark) ========== */
+body.darkmode footer {
+    background: linear-gradient(90deg, #111827, #000000);
+    box-shadow: 0 2px 6px rgb(29, 47, 68);
+    color: #c2e1ff;
+}
+/* ========== Footer (dark) ========== */
+/* ========== Contact Form (dark) ========== */
+body.darkmode .contact-form {
+    background: linear-gradient(135deg, #1f2937, #111827);
+    box-shadow: 0 2px 6px rgb(29, 47, 68);
+}
+body.darkmode .contact-form label {
+    color: white;
+}
+body.darkmode .contact-form input,
+body.darkmode .contact-form textarea {
+    background: linear-gradient(135deg, #2d3847, #252d3f);
+    box-shadow: 0 2px 6px rgb(29, 47, 68);
+    border: #111827;
+    color: white;
+}
+body.darkmode .contact-form input:focus,
+body.darkmode .contact-form textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+    box-shadow: 0 2px 6px 0 #3b82f6;
+}
+body.darkmode .contact-form button {
+    padding: 12px;
+    background-color: #3b82f6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+body.darkmode .contact-form button:hover {
+    background-color: #2563eb;
+    transform: scale(1.05);
+}
+body.darkmode .language_button a {
+    color: #c2e1ff;
+}
+body.darkmode .language_button a:hover {
+    color: #3b82f6;
+}
+/* ========== Contact Form (dark) ========== */
+/* ========== Download Button (light) ========== */
+body.darkmode .download-btn {
+    background: linear-gradient(90deg, #3b82f6, #1a5be8);
+    color: #ffffff;
+    box-shadow: 0 2px 6px 0 #3b82f6;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+body.darkmode .download-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(90deg, #2563eb, #1d5ce6);
+}
+/* ========== Download Button (light) ========== */
+/* ========== Download Button Disabled (light) ========== */
+body.darkmode .download-btn.disabled {
+    background: #757575;
+    color: #dbdbdb;
+    cursor: not-allowed;
+    pointer-events: none;
+    box-shadow: none;
+    transform: none;
+}
+/* ========== Download Button Disabled (light) ========== */
