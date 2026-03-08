@@ -1,4 +1,4 @@
-baseURL = 'https://spikemurphy.github.io/ConformationLabWeb/'
+baseURL = 'https://murphy-biochemistry.github.io/ConformationLabWeb/'
 languageCode = 'en-us'
 title = 'ConformationLabWeb'
 author = "Spike Murphy Müller"
