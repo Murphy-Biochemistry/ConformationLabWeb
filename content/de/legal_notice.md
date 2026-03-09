@@ -13,7 +13,7 @@ categories = []
 
 # Impressum gemäß § 5 TMG
 
-**Universitätsklinikum Hamburg-Eppendorf (UKE)**  
+Muprhy Biochemistry UH (haftungsbeschränkt) i. G.
 xxxxxxxxxx
 xxxxxxxxxx
 xxxxxxxxxx

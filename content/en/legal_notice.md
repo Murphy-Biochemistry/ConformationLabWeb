@@ -13,7 +13,7 @@ categories = []
 
 # Legal Notice according to § 5 TMG
 
-**University Medical Center Hamburg-Eppendorf (UKE)**  
+Muprhy Biochemistry UH (haftungsbeschränkt) i. G.
 xxxxxxxxxx
 xxxxxxxxxx
 xxxxxxxxxx
