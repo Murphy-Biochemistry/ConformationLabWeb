@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:1313/ConformationLabWeb/en/sitemap.xml</loc>
+    <loc>https://murphy-biochemistry.github.io/ConformationLabWeb/en/sitemap.xml</loc>
     
       <lastmod>2025-10-03T17:08:27+02:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/ConformationLabWeb/de/sitemap.xml</loc>
+    <loc>https://murphy-biochemistry.github.io/ConformationLabWeb/de/sitemap.xml</loc>
     
       <lastmod>2025-10-03T17:08:27+02:00</lastmod>
     
