@@ -1,6 +1,6 @@
 +++
 draft = false
-construction = true
+construction = false
 date = "2025-10-02T21:10:03+02:00"
 lang = "en"
 author = "Spike Murphy Müller"
@@ -10,10 +10,9 @@ tags = []
 categories = []
 +++
 
+{{< download_button link="https://github.com/SpikeMurphy/ConformationLabStudio/releases/tag/v1.14.1" label="⬇️ Conformation Lab v1.14.1 for MacOS" >}}
 
-{{< download_button link="/dmg/ConformationLab.dmg" label="⬇️ Download macOS App" >}}
-
-{{< download_button link="/exe/ConformationLab.exe" label="⬇️ Download Windows App" disabled="true">}}
+{{< download_button link="/exe/ConformationLab.exe" label="⬇️ Conformation Lab v1.14.1 for Windows" disabled="true">}}
 
 Our software is released under the [MIT License](/MIT_license).  
 

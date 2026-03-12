@@ -11,6 +11,10 @@ tags = []
 categories = []
 +++
 
+{{< infobox type="warning" title="">}}
+ConformationLab studio Version [1.14.1](https://github.com/SpikeMurphy/ConformationLabStudio/releases/tag/v1.14.1), die erste öffentlich zugängliche version jetzt bereit zum herunterladen.
+{{< /infobox>}}
+
 {{< infobox type="info" title="" >}}
 
 ## Willkommen zu ConformationLab  
